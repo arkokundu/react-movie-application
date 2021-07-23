@@ -6,12 +6,13 @@ import {GlobalStyle}  from './GlobalStyle';
 
 // Components
 import Header from './components/Header';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      Start here.
+      <Header />  
+      <Home />
       <GlobalStyle />
     </div>
   );
